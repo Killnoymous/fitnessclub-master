@@ -7104,6 +7104,12 @@ del {
 
 
 
+
+/* Logo size constraint */
+.logo img {
+    max-width: 150px;
+}
+
 /* Override preloader image size for new logo */
 .preloader .preloader-img img {
     max-width: 200px !important;
