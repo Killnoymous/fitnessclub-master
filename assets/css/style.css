@@ -7105,3 +7105,8 @@ del {
 .logo img {
     filter: hue-rotate(45deg) brightness(1.5);
 }
+
+/* Override preloader image size for new logo */
+.preloader .preloader-img img {
+    max-width: 200px !important;
+}
